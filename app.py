@@ -8,7 +8,7 @@ from vector_db import create_vector_store, load_vector_store
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'
 
-genai.configure(api_key="AIzaSyB2zb_SGPmqT28ZUUDXXJcL7aks5oGh8N8")
+genai.configure(api_key="")
 
 def get_gemini_response(input_text, description_text, prompt):
     try:
